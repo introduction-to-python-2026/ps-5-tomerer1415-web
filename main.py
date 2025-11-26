@@ -3,6 +3,7 @@ from string_utils import parse_chemical_reaction, count_atoms_in_reaction
 
 import equation_utils
 from equation_utils import build_equation, my_solve
+
 def balance_reaction(reaction): #"Fe2O3 + H2 -> Fe + H2O"
 
     #1.parse reaction
